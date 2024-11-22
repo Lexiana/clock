@@ -36,10 +36,16 @@ body {
 }
 
 .clock{
-  width: 50%;
+  width: 60%;
   
 }
 h1{
   text-align: center;
   font-size: 2.5rem;
+}
+
+@media screen and (max-width: 769px){
+  .clock{
+    width: 95vw;
+  }
 }
